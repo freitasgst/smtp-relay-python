@@ -1,0 +1,1 @@
+GCHAT_API=https://chat.googleapis.com/v1/spaces/AAAAA
