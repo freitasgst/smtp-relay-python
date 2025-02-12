@@ -5,7 +5,7 @@ def relayer_setup(secrets_file: str) -> str:
     with open(secrets_file) as file:
         secrets_list = file.read().splitlines()
         for secrets_line in secrets_list:
-            secret_parts = secrets_line.split("=")
+            secret_parts = secrets_line.split("=", 1)
             if secret_parts[0] == "GCHAT_API":
                 api = secret_parts[1]
     return api
