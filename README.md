@@ -1,5 +1,5 @@
 [![Python](https://img.shields.io/badge/python-3.12-green)](https://www.python.org)
-[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Black](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![Tests](https://github.com/freitasgst/smtp-relay-python/workflows/Tests/badge.svg)](https://github.com/freitasgst/smtp-relay-python/actions)
 
 # SMTP Relay
